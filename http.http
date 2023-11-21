@@ -2,3 +2,12 @@ GET http://localhost:8080/demo/test
 
 ###
 GET http://localhost:8080/demo/exception
+
+### 登录
+POST http://localhost:8080/login/username-pwd
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "123456"
+}
