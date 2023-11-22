@@ -1,7 +1,7 @@
 package com.idle.fish.template.b.single.springboot.impl;
 
 import com.idle.fish.tamplate.basic.user.BasicUser;
-import com.idle.fish.template.basic.login.LoginService;
+import com.idle.fish.template.basic.login.service.LoginService;
 import com.idle.fish.template.basic.exception.Asserts;
 import org.springframework.stereotype.Service;
 

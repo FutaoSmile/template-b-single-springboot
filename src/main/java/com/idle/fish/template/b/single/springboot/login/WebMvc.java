@@ -1,6 +1,6 @@
 package com.idle.fish.template.b.single.springboot.login;
 
-import com.idle.fish.template.basic.login.UserAuthInterceptor;
+import com.idle.fish.template.basic.login.interceptor.UserAuthInterceptor;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
